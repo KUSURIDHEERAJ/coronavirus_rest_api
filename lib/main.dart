@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Coronavirus Tracker',
+        //  centerTitle:true,
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: Color(0xFF101010),
           cardColor: Color(0xFF222222),

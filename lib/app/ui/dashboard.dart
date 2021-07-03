@@ -57,6 +57,7 @@ class _DashboardState extends State<Dashboard> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Coronavirus Tracker'),
+        centerTitle: true,
       ),
       body: RefreshIndicator(
         onRefresh: _updateData,
